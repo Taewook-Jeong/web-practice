@@ -1,10 +1,16 @@
- <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<!-- set primary language -->
+<html lang="en-US">
   <head>
     <meta charset="utf-8">
+    <meta name="author" content="Taewook-Jeong">
+    <meta name="description" content="This is Taewook Jeong's web page for practice. Welcome!">
     <title>My test page</title>
     <link href="styles/style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- social meta tag (생략) -->
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
   </head>
   <body>
     <h1>Mozilla is cool</h1>
@@ -18,9 +24,20 @@
       <li>builders</li>
     </ul>
 
+    <p>This is <strong>Taewook</strong>'s web page for <em>practice</em>.</p>
+    <!--<em>(emphasize>, <strong>(important)는 그저 text form을 바꾸는 것이 아니라 의미론적으로 강조, 중요라는 의미
+      다만 <b>bold, <i>italic, <u>underline은 의미가 없음. 사용 않고 css로.
+      html5에서 의미 재정의 하긴 했다.-->
+    
+    <!-- block level link -->
+    <a href="https://www.ygfamily.com/artist/main.asp?ARTIDX=70&ATYPE=2&LANGDIV=K" title="Blackpink web page(YG)">
+      <img src="images/blackpink-logo.png" alt="Blackpink, Best k-pop groub">
+    </a>
+    <p>watch my <a href="sample1.html#doc_frag">message</a>!</p>
+
     <p>working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
 
-    <p>Read the <a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a> to learn even more about the values and principles that guide the pursuit of our mission.</p>
+    <p>Read the <a href="https://www.mozilla.org/en-US/about/manifesto/" title="Mozilla manifesto page">Mozilla Manifesto</a> to learn even more about the values and principles that guide the pursuit of our mission.</p>
     <button>Change user</button>
     <script src="scripts/main.js"></script>
   </body>
